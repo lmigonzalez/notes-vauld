@@ -81,7 +81,7 @@ export default {
 
 			<div class="form-control">
 				<label for="">Note</label>
-				<textarea v-model="note" required maxlength="255"> </textarea>
+				<textarea cols="30" v-model="note" required maxlength="255"> </textarea>
 			</div>
 
 			<div class="btn-container">
@@ -133,7 +133,10 @@ form input {
 
 form textarea {
 	min-height: 5rem;
+	width: 100%;
+	resize: none;
 	padding: 0.5rem 1rem;
+
 }
 
 .form-control {

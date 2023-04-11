@@ -111,6 +111,8 @@ form input {
 }
 
 form textarea {
+	width: 100%;
+	resize: none;
 	min-height: 5rem;
 	padding: 0.5rem 1rem;
 }
